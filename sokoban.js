@@ -1,7 +1,7 @@
 let moves = 0;
 
 let tileset = new Image();
-tileset.src = "https://aufildudedale.fr/minosban/minos.png";
+tileset.src = "minos.png";
 
 let eventkeys = [37, 38, 39, 40, 90, 81, 68, 83];
 
