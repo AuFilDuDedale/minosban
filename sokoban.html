@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>
+      Minosban
+    </title>
+  </head>
+  <body>
+    <canvas id="sokoban_canvas" width="760" height="440"></canvas>
+    <script src="level.js"></script>
+    <script src="player.js"></script>
+    <script src="sokoban.js"></script>
+    <div id="gagne" style="display: none; visibility: hidden">
+<h3>Gagné !</h3>
+</div>
+
+<div id="perdu" style="display: none; visibility: hidden">
+<h3>Perdu ! </h3></br>
+Vous avez bien rempli votre objectif mais vous avez utilisé trop de déplacements...
+</div>
+
+<h3>Déplacements : <span id="moves"/></h3>
+
+<div id="rejouer">
+<a id="rejouer_button" href="#"><span>Recommencer</span></a>
+</div>
+
+<script>
+minosban_init();
+</script>
+  </body>
+</html>
